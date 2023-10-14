@@ -1,8 +1,12 @@
 [*.{cs,vb}]
 
 # IDE0003: Remove qualification
-dotnet_style_qualification_for_event =true:silent
-dotnet_style_qualification_for_field=true:silent
-dotnet_style_qualification_for_property=true:silent
-dotnet_style_qualification_for_method=true:silent
-dotnet_diagnostic.CA1822.severity=silent
+dotnet_style_qualification_for_event = true:silent
+dotnet_style_qualification_for_field = true:silent
+dotnet_style_qualification_for_property = true:silent
+dotnet_style_qualification_for_method = true:silent
+dotnet_diagnostic.CA1822.severity = silent
+
+[*.{xml,csproj}]
+indent_size = 2
+ij_xml_space_inside_empty_tag = true

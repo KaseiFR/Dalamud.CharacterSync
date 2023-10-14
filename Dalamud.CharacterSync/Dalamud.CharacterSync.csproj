@@ -2,7 +2,7 @@
   <PropertyGroup Label="Target">
     <TargetFramework>net7.0-windows</TargetFramework>
     <PlatformTarget>x64</PlatformTarget>
-    <LangVersion>9.0</LangVersion>
+    <LangVersion>11.0</LangVersion>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -51,6 +51,7 @@
   <ItemGroup>
     <PackageReference Include="DalamudPackager" Version="2.1.12" />
     <Reference Include="Dalamud" Private="False" />
+    <Reference Include="FFXIVClientStructs" Private="False" />
     <Reference Include="ImGui.NET" Private="False" />
     <Reference Include="ImGuiScene" Private="False" />
     <Reference Include="Lumina" Private="False" />
